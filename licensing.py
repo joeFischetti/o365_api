@@ -90,6 +90,7 @@ while config["endpoint"] is not None:
 
 #print out a csv in the following format:
 #userprincipalname,LICENSE|LICENSE|LICENSE|etc
+print("User principal name,Licenses")
 for user in users:
     print(user + "," + "|".join(users[user]))
 
